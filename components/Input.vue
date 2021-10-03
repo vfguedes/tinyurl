@@ -6,17 +6,16 @@
       :placeholder="placeholder"
       :class="{
         'border-red-400 focus:ring-red-500 hover:border-red-600': error,
+        'border-gray-200 focus:ring-green-500 hover:border-gray-400': !error,
       }"
       class="
         p-2
         rounded
         text-gray-800
-        border border-gray-200
-        hover:border-gray-400
+        border
         focus:outline-none
         focus:ring
         focus:ring-opacity-50
-        focus:ring-green-500
         focus:border-transparent
         transition-all
         duration-150
