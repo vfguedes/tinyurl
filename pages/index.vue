@@ -34,7 +34,7 @@ export default Vue.extend({
       this.slug = document.URL + value
     },
     copyToClipboard() {
-      navigator.clipboard.writeText(`${document.URL}/${this.slug}`)
+      navigator.clipboard.writeText(this.slug)
     },
   },
 })
