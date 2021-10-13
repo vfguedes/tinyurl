@@ -12,7 +12,7 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "core-js": "^3.18.2",
+    "core-js": "^3.18.3",
     "firebase": "^9.1.2",
     "nuxt": "^2.15.7",
     "qrcode.vue": "^1.7.0",
