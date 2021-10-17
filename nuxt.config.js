@@ -36,6 +36,8 @@ export default {
     '@nuxtjs/tailwindcss',
   ],
 
+  ssr: false, // Disable Server Side rendering
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
